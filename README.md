@@ -16,24 +16,24 @@ The initial phase of the project focused on consolidating all relevant informati
 
 ![xlookup](images/xlookup1.png)
 
-![xlookup](images\xlookup2.png)
+![xlookup](images/xlookup2.png)
 
-![xlookup](images\xlookup3.png)
+![xlookup](images/xlookup3.png)
 
 **INDEX & MATCH**: To gather product-specific details, a combination of `INDEX` and `MATCH` was employed. This allowed us to look up the `Product ID` from the `orders` table within the `products` table to retrieve information such as `Coffee Type`, `Roast Type`, `Unit Price`, and `Size`.
 
-![index&match](images\index_match.png)
+![index&match](images/index_match.png)
 
 ### Data Formatting
 **Date Formatting**: The `Order Date` column was formatted to a consistent `yyyy-mm-dd` format to ensure accuracy in time-based analysis and on the timeline slicer.
-![date_format](images\date_format1.png)
+![date_format](images/date_format1.png)
 
-![date_format](images\date_format2.png)
+![date_format](images/date_format2.png)
 
 **Number Formatting**: Sales and price columns (`Unit Price`, `Sales`) were formatted as currency ($) to maintain clarity and professionalism in the final reports.
-![num_format](images\num_format1.png)
+![num_format](images/num_format1.png)
 
-![num_format](images\num_format2.png)
+![num_format](images/num_format2.png)
 
 ## PivotTables for Data Aggregation
 After cleaning and consolidating the data, **PivotTables** were extensively used to summarize and analyze the information from different perspectives. They were instrumental in creating the aggregated datasets required for the dashboard visualizations.
@@ -49,7 +49,7 @@ The final phase was to present the summarized data in an intuitive dashboard. Th
 ### Total Sales by Coffee Type (2019-2022)
 This table shows the monthly sales figures for each of the four coffee types over the four-year period.
 
-![TotalSales](images\TotalSales.png)
+![TotalSales](images/TotalSales.png)
 
 ### Sales by Country
 A breakdown of total sales by country, highlighting the most valuable markets. The United States is clearly the dominant market.
@@ -71,4 +71,4 @@ Terri Farra | $289.11
 Nealson Cuttler | $281.67
 Don Flintiff | $278.01
 
-![dashboar](images\dashboard.png)
+![dashboar](images/dashboard.png)
