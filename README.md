@@ -14,7 +14,7 @@ The initial phase of the project focused on consolidating all relevant informati
 ### Excel Functions Used
 **XLOOKUP**: To enrich the `orders` data, `XLOOKUP` was used to fetch customer details from the `customers` table. By matching the `Customer ID` in the orders sheet, we could pull in corresponding data like `Customer Name`, `Email`, and `Country`.
 
-![xlookup](images\xlookup1.png)
+![xlookup](images/xlookup1.png)
 
 ![xlookup](images\xlookup2.png)
 
